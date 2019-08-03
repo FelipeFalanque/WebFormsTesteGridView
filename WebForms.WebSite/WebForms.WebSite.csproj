@@ -105,8 +105,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="About.aspx" />
-    <Content Include="Contact.aspx" />
+    <Content Include="Imagens\close72.ico" />
+    <Content Include="Imagens\close72.png" />
+    <Content Include="Imagens\close72.svg" />
+    <Content Include="Imagens\down_48.ico" />
+    <Content Include="Imagens\important72.ico" />
+    <Content Include="Imagens\important72.png" />
+    <Content Include="Imagens\important72.svg" />
+    <Content Include="Imagens\ok72.ico" />
+    <Content Include="Imagens\ok72.png" />
+    <Content Include="Imagens\ok72.svg" />
+    <Content Include="Imagens\up_48.ico" />
+    <Content Include="TestOne.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -161,21 +171,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="About.aspx.cs">
-      <DependentUpon>About.aspx</DependentUpon>
+    <Compile Include="Entidades\Dados.cs" />
+    <Compile Include="TestOne.aspx.cs">
+      <DependentUpon>TestOne.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="About.aspx.designer.cs">
-      <DependentUpon>About.aspx</DependentUpon>
+    <Compile Include="TestOne.aspx.designer.cs">
+      <DependentUpon>TestOne.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Contact.aspx.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Contact.aspx.designer.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
