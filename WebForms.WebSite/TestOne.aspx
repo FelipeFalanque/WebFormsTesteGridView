@@ -3,15 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <style>
-        #navcontainer ul {
-            margin: 0;
-            padding: 0;
-            list-style-type: none;
-        }
 
-            #navcontainer ul li {
-                display: inline;
-            }
     </style>
 
     <asp:UpdatePanel ID="upPanelOne" runat="server">
@@ -27,7 +19,7 @@
             <br />
 
             <div class="row" style="border: 1px solid black">
-                <img src="Imagens/close.ico" />
+                <img src="Imagens/close72.ico" />
                 <h3 style="color: red"><strong>150 caixas/ 90 pedidos</strong></h3>
                 <h5 style="color: gray">Processadas com erro!</h5>
                 <img src="Imagens/down_48.ico" />
